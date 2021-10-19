@@ -28,9 +28,9 @@ namespace ChoresDatabase
 
                 // Build connection string
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
-                builder.DataSource = "DESKTOP-EVJ0R7T\\SQLSERVER2019";   // update me
-                builder.UserID = "dbuser";              // update me
-                builder.Password = "Password1!";      // update me
+                builder.DataSource = "DESKTOP-EVJ0R7T\\SQLSERVER2019";   
+                builder.UserID = "dbuser";              
+                builder.Password = "Password1!";      
                 builder.InitialCatalog = "master";
 
                 // Connect to SQL
@@ -71,9 +71,9 @@ namespace ChoresDatabase
 
                 // Build connection string
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
-                builder.DataSource = "DESKTOP-EVJ0R7T\\SQLSERVER2019";   // update me
-                builder.UserID = "dbuser";              // CHANGE ME BEFORE UPLOADING
-                builder.Password = "Password1!";      // CHANGE ME BEFORE UPLOADING
+                builder.DataSource = "DESKTOP-EVJ0R7T\\SQLSERVER2019";   
+                builder.UserID = "dbuser";              
+                builder.Password = "Password1!";      
                 builder.InitialCatalog = "master";
 
                 // Connect to SQL
@@ -114,9 +114,9 @@ namespace ChoresDatabase
 
                 // Build connection string
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
-                builder.DataSource = "DESKTOP-EVJ0R7T\\SQLSERVER2019";   // update me
-                builder.UserID = "dbuser";              // CHANGE ME BEFORE UPLOADING
-                builder.Password = "Password1!";      // CHANGE ME BEFORE UPLOADING
+                builder.DataSource = "DESKTOP-EVJ0R7T\\SQLSERVER2019";   
+                builder.UserID = "dbuser";              
+                builder.Password = "Password1!";      
                 builder.InitialCatalog = "master";
 
                 // Connect to SQL
@@ -205,9 +205,9 @@ namespace ChoresDatabase
 
                 // Build connection string
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
-                builder.DataSource = "DESKTOP-EVJ0R7T\\SQLSERVER2019";   // update me
-                builder.UserID = "dbuser";              // CHANGE ME BEFORE UPLOADING
-                builder.Password = "Password1!";      // CHANGE ME BEFORE UPLOADING
+                builder.DataSource = "DESKTOP-EVJ0R7T\\SQLSERVER2019";   
+                builder.UserID = "dbuser";              
+                builder.Password = "Password1!";      
                 builder.InitialCatalog = "master";
 
                 // Connect to SQL
@@ -252,9 +252,9 @@ namespace ChoresDatabase
 
             // Build connection string
             SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
-            builder.DataSource = "DESKTOP-EVJ0R7T\\SQLSERVER2019";   // update me
-            builder.UserID = "dbuser";              // CHANGE ME BEFORE UPLOADING
-            builder.Password = "Password1!";      // CHANGE ME BEFORE UPLOADING
+            builder.DataSource = "DESKTOP-EVJ0R7T\\SQLSERVER2019";   
+            builder.UserID = "dbuser";              
+            builder.Password = "Password1!";      
             builder.InitialCatalog = "master";
 
             // Connect to SQL
@@ -274,7 +274,7 @@ namespace ChoresDatabase
                     {
                         while (reader.Read())
                         {
-                            //chores.Add($"{reader.GetSqlInt32(0)} {reader.GetString(1)} {reader.GetString(2)}");
+                            
                             choreID = reader.GetInt32(0);
                             choreName = reader.GetString(1);
                             choreAssignment = reader.GetString(2);
